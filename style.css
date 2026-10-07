@@ -1,0 +1,112 @@
+body {
+    background-color: #d4d6d8;
+    color: #151718;
+    font-family: 'Slabo 13px', sans-serif;
+    font-size: 16px;
+}
+ h2, h3 {
+    text-align: center;
+    font-family: 'bebas neue', sans-serif;
+    color: #000000;
+    font-size: 20px;
+
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Bebas Neue', sans-serif;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 55px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 35px;
+}
+a {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #928fde;
+    padding: 10px 20px;
+    
+    text-decoration: none;
+}
+a:hover {
+    color: #000000;
+}
+
+
+/*custom design with class */
+.container {
+    width: 700px;
+    margin: 40px auto;
+
+    @media (max-width: 760px) {
+     .container{
+      width: 600px;
+    }
+    }
+
+    @media (max-width: 500px) {
+.container{ 
+ width: 400px;}
+    }
+
+
+.card-white {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.btn-blue {
+    display: inline-block;
+    background-color: #928fde;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.btn-blue:hover {
+    background-color: #000000;
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline li {
+   front-size: 50px;
+   color: rgb(230, 230, 230);
+}
+.list-inline li {
+    front-size: 50px;
+   color: rgb(230, 230, 230);
+}
+/*design adjustment using id (1% design remaining) */
+#introduction p {
+    margin-bottom: 40px;
+}
